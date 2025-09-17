@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>ball$worth — WAR → $</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+  <main class="wrap">
+    <h1 class="brand">ball$worth</h1>
+    <form id="query" class="query">
+      <input id="player" type="text" placeholder="Type a player… e.g., Juan Soto" autofocus />
+      <input id="year" type="number" placeholder="Year (optional)" />
+      <button type="submit">Value</button>
+    </form>
+
+    <section id="result" class="card hidden"></section>
+    <p class="hint">One clean answer like StatMuse. Model bucket shown up top. Negative WAR → “owes their team”.</p>
+  </main>
+  <script src="/static/app.js"></script>
+</body>
+</html>
